@@ -1,5 +1,5 @@
 class PrototypesController < ApplicationController
- before_action :authenticate_user!,  only: [:show, :edit]
+ before_action :authenticate_user!,  only: [:show, :edit, :destroy]
  
 
   def index
